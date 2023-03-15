@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- Google tag (gtag.js) -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-D94KJ92JYR"></script>
+        <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'G-D94KJ92JYR');
+        </script>
+        <meta charset="UTF-8">
+        <meta name="description" content="Vegetarian lifestyle and recipes">
+        <meta name="keywords" content="Vegetarian, Vegan, food, Vegetarianism, recipes">
+        <meta name="author" content="Nupur Shah">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vegetarian Lifestyle</title>
+    </head>
+    <body>
+        <header>
+            <img src="images/Lifestyle2.png" alt="Vegetarian Lifestyle" width="250" height="60">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="legacy.html">Legacy</a></li>
+                    <li><a href="recipes.html">Recipes</a></li>
+                    <li><a href="expo.html">Expo</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <div>
+                <img src="images/EXPO.png" alt="Expo section" width="100%" height="170">
+                <br><br>
+            </div>
+        
+            <section>
+                <p>
+                    Share experience from your Vegetarianism Journey!
+                </p>
+                <form method="POST" action="expo.html">
+                    <p>
+                        <div>
+                            <lable for="name">Name:</lable>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                    </p>
+                    <p>
+                        <div>
+                            <lable for="profile">Avatar picture:</lable>
+                            <input type="file" id="profile" name="profile">
+                        </div>
+                    </p>
+                    <p>
+                        <div>
+                            <lable for="contribution">Contribution:</lable>
+                            <select name="contribution" id="contribution" required>
+                                <option value="Select">Select</option>
+                                <option value="Recipe">Recipe</option>
+                                <option value="Tips">Tips</option>
+                                <option value="Experience Story">Experience Story</option>
+                                <option value="Question">Question</option>
+
+                            </select>
+                        </div>
+                    </p>
+                    <p>
+
+                        <div>
+                            <label for="content">Content:</label>
+                            <textarea id="content" name="content" rows="3" cols="50"></textarea>
+                        </div>
+                    </p>
+                    <input type="submit" value="Submit">
+
+                </form>
+                
+                <br><br>
+
+            </section>
+            <div>
+                <img src="images/healthyV.jpg" alt="Healthy food" width="55%" height="450">
+            </div>
+        
+        </main>
+        <footer>
+            <p>
+                &copy; 2023 Vegetarian Lifestyle
+            </p>
+        </footer>
+    </body>
+</html>
