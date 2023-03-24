@@ -1,0 +1,66 @@
+/*Logo*/
+header img{
+    position:absolute;
+    top:0px;
+    left:0px;
+    
+}
+header {
+    position: relative;
+}
+
+/*navigation*/
+nav ul {
+    padding-left: 350px;
+    padding-right: 300px;
+    padding-top: 0px;
+}
+
+nav {
+    background-color: white;
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav a{
+    display: inline-block;
+    padding: 1rem;
+    text-decoration:wavy;
+    color: green;
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    
+}
+
+nav a:hover {
+    background-color: #067302;
+    color: white;
+}
+
+/*body*/
+body{
+    background-color: white;
+}
+main{
+    background-color: #93D973;
+    width: 100%;
+}
+main section{
+    background-color: #F2F2F2;
+    
+    text-align: center;
+    padding-right: 30px;
+    padding-left: 30px;
+
+    display: block;
+}
+body img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
