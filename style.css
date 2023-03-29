@@ -1,4 +1,7 @@
 /*Logo*/
+html{
+    background-color: #93D973;
+}
 header img{
     position:absolute;
     top:0px;
@@ -7,22 +10,30 @@ header img{
 }
 header {
     position: relative;
+
 }
 
 /*navigation*/
+nav {
+    background-color: #F2F2F2;
+    list-style-type: none;
+    width: 100%;
+    
+    
+}
 nav ul {
     padding-left: 350px;
     padding-right: 300px;
     padding-top: 0px;
+    
+
 }
 
-nav {
-    background-color: white;
-    list-style-type: none;
-}
+
 
 nav ul li {
     display: inline-block;
+
 }
 
 nav a{
@@ -33,6 +44,7 @@ nav a{
     font-weight: bold;
     font-size: 30px;
     text-align: center;
+    font-family: serif;
     
 }
 
@@ -43,7 +55,7 @@ nav a:hover {
 
 /*body*/
 body{
-    background-color: white;
+    
 }
 main{
     background-color: #93D973;
@@ -51,11 +63,19 @@ main{
 }
 main section{
     background-color: #F2F2F2;
-    
+    width:auto;
     text-align: center;
     padding-right: 30px;
     padding-left: 30px;
+    border:10px;
+    margin: 10px;
 
+}
+main div{
+    /*background-color: #93D973;*/
+    width:100%;
+}
+section ul li{
     display: block;
 }
 body img{
@@ -64,3 +84,9 @@ body img{
     margin-right: auto;
 }
 
+/*footer*/
+footer{
+    font-style: oblique;
+    background-color: #F2F2F2;
+
+}
