@@ -1,15 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="css/style.css">
-        <meta charset="UTF-8">
-        <meta name="description" content="Vegetarian lifestyle and recipes">
-        <meta name="keywords" content="Vegetarian, Vegan, food, Vegetarianism, recipes">
-        <meta name="author" content="Nupur Shah">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Vegetarian Lifestyle</title>
-    </head>
-    <!-- Google tag (gtag.js) -->
+        <!-- Google tag (gtag.js) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-D4VN9C6FDF"></script>
     <script>
     window.dataLayer = window.dataLayer || [];
@@ -18,9 +10,18 @@
 
     gtag('config', 'G-D4VN9C6FDF');
     </script>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8">
+        <meta name="description" content="Vegetarian lifestyle and recipes">
+        <meta name="keywords" content="Vegetarian, Vegan, food, Vegetarianism, recipes">
+        <meta name="author" content="Nupur Shah">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Vegetarian Lifestyle</title>
+    </head>
+    
     <body>
         <header>
-            <img class="logo" src="images/Lifestyle2.png" alt="Vegetarian Lifestyle" width="250" height="60">
+            <img class="logo" src="images/Lifestyle2.png" alt="Vegetarian Lifestyle" width="250px" height="60px">
             <nav>
                 <ul>
                     <li><a href="index.html">Home</a></li>
@@ -39,26 +40,30 @@
                 <img src="images/healthyV.jpg" alt="Healthy food" width="55%" height="450">
             </div>
         
+            <section class="aside">
+                
+            </section>
+
             <section>
                 <p>
-                    <h3>Share experience from your Vegetarianism Journey!</h3>
+                    <h2>Share experience from your Vegetarianism Journey!</h2>
                 </p>
                 <form method="POST" action="expo.html">
                     <p>
                         <div>
-                            <lable for="name">Name:</lable>
+                            <label for="name">Name:</label>
                             <input type="text" id="name" name="name" required>
                         </div>
                     </p>
                     <p>
                         <div>
-                            <lable for="profile">Avatar picture:</lable>
+                            <label for="profile">Avatar picture:</label>
                             <input type="file" id="profile" name="profile">
                         </div>
                     </p>
                     <p>
                         <div>
-                            <lable for="contribution">Contribution:</lable>
+                            <label for="contribution">Contribution:</label>
                             <select name="contribution" id="contribution" required>
                                 <option value="Select">Select</option>
                                 <option value="Recipe">Recipe</option>
@@ -77,14 +82,12 @@
                         </div>
                     </p>
                     <input type="submit" value="Submit">
-
                 </form>
-                
-                <br><br>
-
             </section>
-    
-        
+
+            <section class="aside">
+                
+            </section>
         </main>
         <footer>
             <p>
