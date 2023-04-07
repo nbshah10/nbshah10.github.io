@@ -18,9 +18,7 @@ nav {
     background-color: #F2F2F2;
     list-style-type: none;
     width: 100%;
-    height: 60;
-    
-    
+    height: 60;  
 }
 nav ul {
     padding-left: 350px;
@@ -29,7 +27,6 @@ nav ul {
 
 nav ul li {
     display: inline-block;
-
 }
 
 nav a{
@@ -41,7 +38,6 @@ nav a{
     font-size: 30px;
     text-align: center;
     font-family: serif;
-    
 }
 
 nav a:hover {
@@ -80,11 +76,7 @@ body img{
     margin-right: auto;
 }
 
-/*.assignments{
-    display:flex;
-    flex-wrap: wrap;
-}*/
-
+/*
 .recipes{
     width: 95%;
     height: 300px;
@@ -103,14 +95,12 @@ body img{
     position: relative;
     top: 0px;
     left:0px;
-
 }
-
 
 .recipes img:hover{
     border:4px dashed black;
 }
-
+*/
 .sources{
     font-family: 'Courier New', Courier, monospace;
     color: #F2F2F2;
