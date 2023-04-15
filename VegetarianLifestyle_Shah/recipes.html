@@ -2,14 +2,14 @@
 <html lang="en">
     <head>
       <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-D4VN9C6FDF"></script>
-    <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+      <script async src="https://www.googletagmanager.com/gtag/js?id=G-D4VN9C6FDF"></script>
+      <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-    gtag('config', 'G-D4VN9C6FDF');
-    </script>
+      gtag('config', 'G-D4VN9C6FDF');
+      </script>
         <link rel="stylesheet" href="style.css">
         <meta charset="UTF-8">
         <meta name="description" content="Vegetarian lifestyle and recipes">
@@ -17,6 +17,31 @@
         <meta name="author" content="Nupur Shah">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Vegetarian Lifestyle</title>
+      <style>
+        .recipes{
+                  width: 95%;
+                  height: 300px;
+                  padding:20px;
+                  margin:10px;
+                  background-color:#F2F2F2;
+                  border-radius: 10px;
+                  font-family: 'Courier New', Courier, monospace;
+                  
+              }
+        .recipes img{
+            margin: 10px;
+            border:4px solid #93D973;
+            display:block;
+            margin:auto;
+            position: relative;
+            top: 0px;
+            left:0px;
+        }
+
+        .recipes img:hover{
+            border:4px dashed black;
+        }
+      </style>
     </head>
 
 
@@ -33,17 +58,29 @@
             </nav>
         </header>
         <main>
+          <div>
+            <br>
+          </div>
             <div>
-                <img src="images/RECIPE.png" alt="Home section" width="100%" height="170">
+                <img src="images/RECIPE.png" alt="Home section" width="100%" height="324px">
             </div>
+            
             <section class="recipes">
             
-              <a href="PP.html"><img src="images/74A31CC3-6722-48A3-A789-2003491FB7CF-400x533.jpeg" style="width: 250px; height: 250px";></a>
+              <a href="PP.html"><img src="images/74A31CC3-6722-48A3-A789-2003491FB7CF-400x533.jpeg" alt="Parmesan Crusted Potatoes" style="width: 200px; height: 227.5px";></a>
           
               </a>
-              <h2>Parmesan Crusted Potatoes</h2>
+              <h1 >Parmesan Crusted Potatoes</h1>
           </section>
-            <section id="ParmesanCrustedPotatoes">
+          <section class="recipes">
+            
+            <a href="HS.html"><img src="images/IMG_3107[240].jpg" alt="Herbed Spaghetti" style="width: 188px; height: 175px";></a>
+        
+            </a>
+            <h1>Herbed Spaghetti</h1>
+        </section>
+        
+            <!--<section id="ParmesanCrustedPotatoes">
               <h3>Parmesan Crusted Potatoes</h3>
               <img src="images/74A31CC3-6722-48A3-A789-2003491FB7CF-400x533.jpeg" alt="Parmesan Potatoes" width="250" height="200">
               <h4>Ingredients:</h4>
@@ -106,7 +143,7 @@
                 </p>
   
   
-              </section>
+              </section>-->
               <div class="sources">
                 <p>
                   <a href="sources.html">Sources</a>
