@@ -56,6 +56,23 @@ main{
     /*background-color: #93D973;*/
     width: 100%;
 }
+
+section.images{
+    background-color: #93d973;
+    border:none;
+    height: 800px;
+}
+section> div.food-gallary {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width:auto;
+    display: grid;
+    
+  }
+
+ 
+
 .title{
     background-color: #C1FFC1;
     color: #5c6244;
